@@ -1,0 +1,48 @@
+body{
+  font-family: "Segoe UI";
+  font-color: rgba(95, 158, 160, 1);
+}
+table, td, th{
+  border: 1px solid black;
+  min-width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+td{
+  padding-top:2px;
+  padding-bottom:4px;
+}
+th{
+  color: #4d6cc7;
+}
+button{
+  background:rgba(255, 77, 77, 1);
+  border: 1px solid red;
+  color: #ffffff;
+  width: 75px;
+  height: 25px;
+  font-weight: bold;
+  margin-left:5px;
+}
+button:hover{
+  background:rgba(255, 77, 77, 0.9);
+}
+#logoutBtn:hover{
+  background: rgba(255, 77, 77, 0.9);
+}
+#heading{
+  color: rgba(95, 158, 160, 1);
+}
+#logoutBtn{
+  background:#ff4d4d;
+  border: 1px solid red;
+  color: #ffffff;
+  width: 75px;
+  height: 25px;
+  font-weight: bold;
+}
+.log_btn{
+  float:right;
+  margin-bottom:10px;
+  margin-top:-43px;
+}
